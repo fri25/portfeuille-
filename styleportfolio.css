@@ -1,0 +1,338 @@
+/* Styles pour le thème clair par défaut */
+body {
+    background-image: url(ffffffffff.jpg);
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(97, 152, 248);
+    color: #000000;
+}
+
+/* Styles pour le thème sombre */
+body.dark-mode {
+    background-image: url(WWWWWWWWWW.jpg);
+    background-color: #1c0505;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #111111;
+    color: #890707;
+}
+
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 3px 5px rgb(162, 95, 95);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav h1{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin: 40px;
+    margin-left: 300px;
+}
+
+ul a{
+    text-decoration: none;
+    margin: 7px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+}
+
+ul a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+li{
+    display: inline;
+
+}
+
+form{
+    margin: -120px;
+}
+
+.prems{
+        margin: 600px;
+        margin-top: 200px;
+        text-align: justify;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about{
+    text-align: right;
+    margin-top: -50px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+
+#ta{
+    text-align: right;
+    margin-right: 600px;
+    font-size: xx-large;
+    margin: 40px;
+    margin-top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ti{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 500px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.photoalain{
+    width: 800px;
+    height: 600px;
+    margin-top: 250px;
+}
+
+/*#haaa{
+    text-align: right;
+    margin: 500px;
+    margin-right: 500px;
+    
+}*/
+
+
+
+.container{
+    /*background-color: rgb(70, 114, 180);
+    background-color: rgb(115, 80, 128);*/
+    display: flex;
+    margin-top: -800px ;
+    padding: 100px;
+}
+
+
+
+#title{
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+#texte{
+    margin: 100px;
+    margin-top: 150px;
+    font-style: normal;
+    text-align: justify;
+    font-size: 23px;
+}
+
+
+#proj{
+   max-width: 300px;
+   float: left;
+   border: 3px solid rgb(21, 182, 53);
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+/*#titreprojet{
+    text-emphasis: none;
+    text-align: center;
+    font-size: xx-large;
+}*/
+
+#CM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+      
+}
+
+#graph{
+    display: flex;
+    margin: 60px auto;
+    width: 70%;
+
+}
+
+#T{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+#T1{
+   margin: 20px;
+   padding: 15px;
+   font-size: 33px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.test{
+    display: block;
+    justify-content: center;
+    margin: 10px;
+}
+
+.contact{
+    background-color: white;
+   padding: 9px;
+   color: black;
+   text-align: center;
+   
+}
+
+#end{
+    text-align: center;
+}
+ 
+.lien{
+    display: inline;
+    justify-content: space-around;
+}
+
+.lien a{
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.lien i{
+    size: 100px;
+}
+
+#proj1{
+    width: 450px;
+    height: 450px;
+    margin-left: 400px;
+    float: left;
+   border: 5px solid rgb(17, 202, 41);
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Styles de base */
+body {
+    background-image: url(ffffffffff.jpg);
+    background-color: #ffffff; /* Couleur de fond en cas d'image non chargée */
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(212, 225, 247);
+    color: black; /* Couleur de texte en haut */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Media query pour les écrans plus petits (par exemple, les smartphones) */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-left: 0; /* Réinitialiser la marge */
+    }
+
+    ul li {
+        display: block; /* Afficher les éléments de la liste en bloc */
+        margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Autres styles spécifiques à l'écran large ici */
+
+/* ... */
+
+/* Styles pour le thème sombre */
+body.dark-mode {
+    background-image: url(WWWWWWWWWW.jpg);
+    background-color: #1c0505;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #111111;
+    color: #890707;
+}
+
+/* Réorganisez et modifiez les autres styles en conséquence pour la responsivité */
+
+footer{
+    margin-top: 400px;
+}
+
+#pj1{
+    max-width: 250px;
+    float: left;
+    border: 3px solid rgb(21, 182, 53);
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+#pj2{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 3px solid rgb(21, 182, 53);
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+#CM1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    margin: 100px;
+}
+
+.article{
+    margin: 100px;
+}
